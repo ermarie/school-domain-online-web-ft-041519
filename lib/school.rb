@@ -26,8 +26,8 @@ class School
     new_roster = {}
     @roster.each do |grade, name|
     #  new_roster[grade] = name.sort
+    new_roster = grade.sort
     end
-    puts new_roster = grade.sort
     new_roster
   end
 
