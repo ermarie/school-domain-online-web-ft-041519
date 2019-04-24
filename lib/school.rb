@@ -27,7 +27,7 @@ class School
     @roster.each do |grade, name|
     #  new_roster[grade] = name.sort
     end
-    puts @roster
+    puts @roster.sort!
     new_roster
   end
 
